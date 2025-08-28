@@ -1,5 +1,6 @@
 /*
-   Max Consecutive Ones III
+   Max Consecutive Ones III  
+   Difficulty : Medium
    PreRequisite : Array , Sliding window and Two pointers
    Approach : Sliding Window
    Time Complexity : O(N)
