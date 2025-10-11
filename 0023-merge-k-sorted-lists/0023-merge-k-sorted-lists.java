@@ -9,53 +9,49 @@
  * }
  */
 class Solution {
-    public static ListNode mergeTwoLists(ListNode first, ListNode second) {
+    public static ListNode merge(ListNode first, ListNode second){
         if(first == null && second == null)
-            return first;
-        if(first == null && second != null )
-           return second;
+             return null;
         if(first != null && second == null)
-           return first;
-        ListNode start, end;
+            return first;
+        if(second != null && first == null)
+            return second;
+        ListNode start = null, last = null;
         if(first.val < second.val){
-           start = end = first;
-           first = first.next;
-           end.next = null;
+            start = last = first;
+            first = first.next;
+            last.next = null;
         }
         else{
-           start = end = second;
-           second = second.next;
-           end.next = null;
+            start = last = second;
+            second = second.next;
+            last.next = null;
         }
         while(first != null && second != null){
             if(first.val < second.val){
-                end.next = first;
-                end = first;
+                last.next = first;
+                last = first;
                 first = first.next;
-                end.next = null;
+                last.next = null;
             }else{
-                end.next = second;
-                end = second;
+                last.next = second;
+                last = second;
                 second = second.next;
-                end.next = null;
+                last.next = null;
             }
         }
-        if(first != null)
-          end.next = first;
-        if(second != null)
-           end.next = second;
+        if(first != null) last.next = first;
+        if(second != null) last.next = second;
         return start;
     }
     public ListNode mergeKLists(ListNode[] lists) {
-         if(lists == null || lists.length == 0)
-            return null;
 
+        if(lists == null || lists.length == 0)
+             return null;
         ListNode merged = lists[0];
-
-        for (int i = 1; i < lists.length; i++) {
-            merged = mergeTwoLists(merged, lists[i]); // reuse your function
+        for(int i = 1; i < lists.length; i++){
+            merged = merge(merged, lists[i]);
         }
-
         return merged;
     }
 }
