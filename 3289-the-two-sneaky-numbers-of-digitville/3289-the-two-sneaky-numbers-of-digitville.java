@@ -6,6 +6,8 @@ class Solution {
         for(int v : nums){
             if(!set.add(v))
                res[idx++] = v;
+            if(idx == 2)
+               break;
         }
         return res;
     }
