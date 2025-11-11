@@ -14,9 +14,6 @@ class Solution {
                 map.put(nums[j], map.getOrDefault(nums[j],0)+1);
             }
         }
-
-        System.out.println(map);
-        if(map.size() == 1 && k == nums.length) return nums[0];
         for(int key : map.keySet()){
             if(map.get(key) == 1)
                 maxResult = (key > maxResult) ? key : maxResult;
