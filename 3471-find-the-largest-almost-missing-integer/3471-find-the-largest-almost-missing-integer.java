@@ -8,15 +8,16 @@ class Solution {
             }
             return maxResult;
         }
-        Map<Integer, Integer> map = new HashMap<>();
+        int[] freq = new int[51];
         for(int i = 0; i <= nums.length - k; i++){
-            for(int j = i; j < i+k ; j++){
-                map.put(nums[j], map.getOrDefault(nums[j],0)+1);
+            for(int j = i; j < i+k; j++){
+                freq[nums[j]] += 1;
             }
         }
-        for(int key : map.keySet()){
-            if(map.get(key) == 1)
-                maxResult = (key > maxResult) ? key : maxResult;
+        for(int i : nums){
+            if(freq[i] == 1){
+                maxResult = Math.max(i, maxResult);
+            }
         }
         return maxResult;
     }
