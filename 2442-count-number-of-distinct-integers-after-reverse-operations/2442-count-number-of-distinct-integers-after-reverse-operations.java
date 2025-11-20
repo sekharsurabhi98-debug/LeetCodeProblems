@@ -1,16 +1,16 @@
 class Solution {
     public int countDistinctIntegers(int[] nums) {
-        List<Integer> list = new ArrayList<>();
         HashSet<Integer> set = new HashSet<Integer>();
-        for(int i : nums){
-            String ns = i+"";
-            String ns1 = "";
-            for(char c: ns.toCharArray()){
-                ns1 = c + ns1;
+        for(int n : nums){
+            set.add(n);
+            int revNum = 0;
+            while(n > 0){
+                int rem = n % 10;
+                revNum = revNum * 10 + rem;
+                n = n / 10;
             }
-            list.add(Integer.parseInt(ns1));
-            set.add(i);
-            set.add(list.get(list.size()-1));
+            if(!set.contains(revNum))
+               set.add(revNum);
         }
         return set.size();
     }
