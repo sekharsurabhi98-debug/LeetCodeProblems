@@ -1,26 +1,26 @@
 class Solution {
-    public boolean isPalindrome(String s){
-        int l = 0; int r = s.length() - 1;
-        while(l < r){
-            if(s.charAt(l) != s.charAt(r))
-                return false;
-            l++;
-            r--;
+    
+    public int expandToFindMaxLength(String s, int l, int r){
+        int maxLen = 1;
+        while(l >= 0 && r < s.length() && s.charAt(l) == s.charAt(r)){
+            l--;
+            r++;
         }
-        return true;
+        System.out.println(r - l - 1);
+        return r - l - 1;
     }
     public String longestPalindrome(String s){
-        String ls = "";
+        int l = 0, r = 0, maxLength = 0, start = 0, end = 0;
         for(int i = 0; i < s.length(); i++){
-            StringBuilder sb = new StringBuilder();
-            for(int j = i; j < s.length(); j++){
-                sb.append(s.charAt(j));
-                if(isPalindrome(sb.toString())){
-                    if(sb.length() > ls.length())
-                       ls = sb.toString();
-                }
+            int odd = expandToFindMaxLength(s,i-1,i+1);
+            int even = expandToFindMaxLength(s,i,i+1);
+            int max = Math.max(odd,even);
+            if(maxLength < max){
+                maxLength = max;
+                start = i - (max - 1) / 2;
+                end = i + maxLength / 2;
             }
         }
-        return ls;
+        return s.substring(start, end+1);
     }    
 }
