@@ -11,9 +11,10 @@ class Solution {
             if(map.size() >= k){
                 maxSum = Math.max(sum,maxSum);
             }
-            sum -= nums[r - k + 1];
-            map.put(nums[r - k + 1],map.get(nums[r - k + 1]) - 1);
-            if(map.get(nums[r - k + 1]) == 0) map.remove(nums[r - k + 1]);
+            sum -= nums[l];
+            map.put(nums[l],map.get(nums[l]) - 1);
+            if(map.get(nums[l]) == 0) map.remove(nums[l]);
+            l++;
           }
        }
        return maxSum;
