@@ -1,5 +1,8 @@
 class Solution {
     public int majorityElement(int[] nums) {
+        /*
+        Time Complexity: O(N)
+        Space Complexity: O(N)
         TreeMap<Integer,Integer> map = new TreeMap<>();
         int max = 0;
         for(int val : nums){
@@ -11,6 +14,14 @@ class Solution {
                  break;
             }
         }
-        return max;
+        return max;*/
+        int res = 0;
+        int majority = 0;
+        for(int n : nums){
+            if(majority == 0)
+                res = n;
+            majority += (res == n) ? 1 : -1;
+        }
+        return res;
     }
 }
