@@ -27,7 +27,6 @@ class Solution {
                     l--;
                 }
             }
-            System.out.println(ch);
         }
         char[][] res = new char[m][n];
         for(int r = 0; r < n; r++){
