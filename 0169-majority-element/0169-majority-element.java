@@ -15,13 +15,18 @@ class Solution {
             }
         }
         return max;*/
-        int res = 0;
-        int majority = 0;
-        for(int n : nums){
-            if(majority == 0)
-                res = n;
-            majority += (res == n) ? 1 : -1;
+        if(nums.length == 1) return 1;
+        Arrays.sort(nums);
+        int count = 1;
+        for(int i = 1; i < nums.length; i++){
+            if(nums[i-1] == nums[i]){
+                count++;
+                if(count > nums.length / 2)
+                    return nums[i];
+            }else{
+                count = 1;
+            }
         }
-        return res;
+        return 0;
     }
 }
