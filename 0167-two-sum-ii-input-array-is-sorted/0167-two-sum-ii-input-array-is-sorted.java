@@ -1,6 +1,6 @@
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-        boolean found = false;
+       /* boolean found = false;
         int idx1 = 0;
         int idx2 = 0;
         for(int i = 0; i < nums.length; i++){
@@ -11,9 +11,12 @@ class Solution {
                     found = true;
                     break;
                 }
-            }
+            }                        TC : O(N * N)
             if(found) break;
         }
-        return new int[]{idx1+1, idx2+1};
+        return new int[]{idx1+1, idx2+1}; */
+
+        int l = 0, r = nums.length - 1;
+    while(l < r)
     }
 }
