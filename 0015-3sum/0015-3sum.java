@@ -18,8 +18,8 @@ class Solution {
                     list.add(al);
                     l++;
                     r--;
-                    while(l < nums.length  && nums[l] == nums[l-1]) l++;
-                    while(r > 0 && nums[r] == nums[r + 1]) r--;    
+                    while(l < r  && nums[l] == nums[l-1]) l++;
+                    while(l < r && nums[r] == nums[r + 1]) r--;    
                     
                 }else if(addition < 0){
                       l++;
