@@ -10,7 +10,7 @@ class Solution {
         }
 
         int i = s.lastIndexOf(digit);
-        System.out.println(i);
+
         return s.substring(0,i) + s.substring(i+1);
     }
 }
