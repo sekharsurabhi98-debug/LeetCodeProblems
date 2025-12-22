@@ -1,24 +1,29 @@
 class Solution {
-    public void setZeroes(int[][] m) {
-        List<List<Integer>> list = new ArrayList<>();
-        for(int r = 0; r < m.length;r++){
-            for(int c = 0; c < m[0].length;c++){
-                if(m[r][c] == 0){
-                    List<Integer> t = new ArrayList<>();
-                    t.add(r);
-                    t.add(c);
-                    list.add(t);
-                }
+    public void setZeroes(int[][] matrix) {
+        List<List<Integer>> al = new ArrayList<>();
+
+        for(int i = 0; i < matrix.length; i++){
+            for(int j = 0; j < matrix[0].length; j++){
+                if(matrix[i][j] == 0){
+                    List<Integer> ar = new ArrayList<>(Arrays.asList(i,j));
+                    al.add(ar);
+                }           
             }
         }
-        //set rows as zero
-       for(int i = 0; i < list.size();i++){
-         for(int c = 0; c < m[0].length;c++){
-            m[list.get(i).get(0)][c] = 0;
+        
+
+        for(List<Integer> lr : al){
+            int r = lr.get(0);
+            int c = lr.get(1);
+
+       
+            for(int i = 0; i < matrix[0].length; i++){
+                matrix[r][i] = 0;
+            }
+
+            for(int i = 0; i < matrix.length; i++)
+                matrix[i][c] = 0;
         }
-        for(int r = 0; r < m.length;r++){
-            m[r][list.get(i).get(1)] = 0;
-        }
-       }
+        
     }
 }
