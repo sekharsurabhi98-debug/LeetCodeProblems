@@ -2,7 +2,7 @@ class Solution {
   
     public long maximumHappinessSum(int[] happiness, int k) {
         Arrays.sort(happiness);
-        int max = 0;
+        long max = 0;
         int idx = happiness.length - 1;
         int decrement = 1;
         while(k > 0){
