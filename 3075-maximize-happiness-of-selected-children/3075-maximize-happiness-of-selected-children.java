@@ -9,9 +9,9 @@ class Solution {
         while(k >= 0){
            max += happiness[idx];
            idx--;
-           if(happiness[idx] - decrement >= 0)
+           if(idx >= 0 && happiness[idx] - decrement >= 0)
               happiness[idx] -= decrement;
-           else
+           else if(idx >= 0)
               happiness[idx] = 0;
            decrement++;
            k--;
