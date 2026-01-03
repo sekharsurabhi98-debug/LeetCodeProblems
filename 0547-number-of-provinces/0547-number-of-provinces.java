@@ -7,7 +7,8 @@ class Solution {
         for(int i = 0; i < n; i++){
             if(!visited[i]){
                 count++;
-                bfs(isConnected,i,visited);
+                //bfs(isConnected,i,visited);
+                dfs(isConnected,i,visited);
             }
         }
         return count;
@@ -26,6 +27,25 @@ class Solution {
             for(int i = 0; i < grid.length; i++){
                 if(grid[u][i] == 1 && !visited[i]){
                     queue.offer(i);
+                }
+            }
+        }
+    }
+
+    private void dfs(int[][] grid, int v, boolean[] visited){
+
+        Stack<Integer> stack = new Stack();
+        stack.push(v);
+
+        while(!stack.isEmpty()){
+            int u = stack.pop();
+        
+            if(!visited[u]){
+                visited[u] = true;
+                for(int i = 0; i < grid.length; i++){
+                    if(grid[u][i] == 1 && !visited[i]){
+                        stack.push(i);
+                    }
                 }
             }
         }
