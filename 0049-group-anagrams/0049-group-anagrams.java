@@ -66,17 +66,23 @@ class Solution {
         Map<String, List<String>> map = new HashMap<>();
         for(int i = 0; i < strs.length; i++){
             
-            char[] ar = strs[i].toCharArray();
-            Arrays.sort(ar);
-
-            String s = new String(ar);
-
-            if(map.containsKey(s)){
-                map.get(s).add(strs[i]);
-            }else{
-                map.put(s, new ArrayList<>());
-                map.get(s).add(strs[i]);
+            StringBuilder key = new StringBuilder();
+            int[] freq = new int[26];
+            for(char c : strs[i].toCharArray()){
+                freq[c - 'a']++;
             }
+
+            for(int j = 0; j < 26; j++){
+                key.append("#").append(freq[j]);
+            }
+            System.out.println(key.toString());
+            if(map.containsKey(key.toString())){
+                map.get(key.toString()).add(strs[i]);
+            }else{
+                map.put(key.toString(), new ArrayList<>());
+                map.get(key.toString()).add(strs[i]);
+            }
+
         }
         return new ArrayList<>(map.values());
     }
