@@ -10,7 +10,7 @@
  */
 class Solution {
     public ListNode rotateRight(ListNode head, int k) {
-        if(head == null) return head;
+        if(head == null || k == 0) return head;
         ListNode start = head;
         ListNode p = head;
         int length = 0;
