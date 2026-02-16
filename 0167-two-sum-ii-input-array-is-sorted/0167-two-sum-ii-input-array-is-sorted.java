@@ -17,6 +17,19 @@ class Solution {
         return new int[]{idx1+1, idx2+1}; */
 
         int l = 0, r = nums.length - 1;
-    while(l < r)
+        while(l < r){
+             
+            int sum = nums[l] + nums[r];
+            if(sum == target){
+                break;
+            }
+            else if(sum > target){
+                r--;
+            }
+            else{
+                l++;
+            }
+        }
+        return new int[]{l+1, r+1};
     }
 }
