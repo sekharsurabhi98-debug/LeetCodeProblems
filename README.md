@@ -10,4 +10,8 @@ I use this repo to practice DSA, SQL, and improve my problem-solving skills for 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1009-complement-of-base-10-integer](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/1009-complement-of-base-10-integer/) | Easy |
+## Database
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0182-duplicate-emails](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0182-duplicate-emails/) | Easy |
 <!---LeetCode Topics End-->
