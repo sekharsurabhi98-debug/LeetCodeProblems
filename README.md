@@ -13,6 +13,7 @@ I use this repo to practice DSA, SQL, and improve my problem-solving skills for 
 ## Database
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0176-second-highest-salary](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0176-second-highest-salary/) | Medium |
 | [0182-duplicate-emails](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0182-duplicate-emails/) | Easy |
 | [0183-customers-who-never-order](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0183-customers-who-never-order/) | Easy |
 | [0197-rising-temperature](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0197-rising-temperature/) | Easy |
