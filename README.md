@@ -22,4 +22,12 @@ I use this repo to practice DSA, SQL, and improve my problem-solving skills for 
 | [0595-big-countries](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0595-big-countries/) | Easy |
 | [1045-customers-who-bought-all-products](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/1045-customers-who-bought-all-products/) | Medium |
 | [1068-product-sales-analysis-i](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/1068-product-sales-analysis-i/) | Easy |
+## Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
+## Dynamic Programming
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 <!---LeetCode Topics End-->
