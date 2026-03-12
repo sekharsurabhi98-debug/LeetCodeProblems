@@ -30,4 +30,16 @@ I use this repo to practice DSA, SQL, and improve my problem-solving skills for 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0242-valid-anagram](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0242-valid-anagram/) | Easy |
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0242-valid-anagram](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0242-valid-anagram/) | Easy |
+## Sorting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0242-valid-anagram](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0242-valid-anagram/) | Easy |
 <!---LeetCode Topics End-->
