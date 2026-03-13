@@ -29,6 +29,7 @@ I use this repo to practice DSA, SQL, and improve my problem-solving skills for 
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0005-longest-palindromic-substring](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -37,9 +38,14 @@ I use this repo to practice DSA, SQL, and improve my problem-solving skills for 
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0005-longest-palindromic-substring](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0242-valid-anagram](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0242-valid-anagram/) | Easy |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0242-valid-anagram](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0242-valid-anagram/) | Easy |
+## Two Pointers
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0005-longest-palindromic-substring](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0005-longest-palindromic-substring/) | Medium |
 <!---LeetCode Topics End-->
