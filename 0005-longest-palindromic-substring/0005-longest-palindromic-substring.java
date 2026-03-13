@@ -25,7 +25,7 @@ class Solution {
         int start = 0;
         int length = 0;
         String result = "";
-        for(int i = 1; i < s.length(); i++){
+        for(int i = 0; i < s.length(); i++){
             
             String even = checkAround(i,s,true);
             String odd = checkAround(i,s,false);
