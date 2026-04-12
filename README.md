@@ -27,6 +27,7 @@ I use this repo to practice DSA, SQL, and improve my problem-solving skills for 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
+| [0075-sort-colors](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0075-sort-colors/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0268-missing-number](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0268-missing-number/) | Easy |
 ## Dynamic Programming
@@ -47,6 +48,7 @@ I use this repo to practice DSA, SQL, and improve my problem-solving skills for 
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0075-sort-colors](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0075-sort-colors/) | Medium |
 | [0242-valid-anagram](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0242-valid-anagram/) | Easy |
 | [0268-missing-number](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0268-missing-number/) | Easy |
 ## Two Pointers
@@ -54,6 +56,7 @@ I use this repo to practice DSA, SQL, and improve my problem-solving skills for 
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
+| [0075-sort-colors](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0075-sort-colors/) | Medium |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
