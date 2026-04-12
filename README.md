@@ -9,6 +9,7 @@ I use this repo to practice DSA, SQL, and improve my problem-solving skills for 
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0268-missing-number](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0268-missing-number/) | Easy |
 | [1009-complement-of-base-10-integer](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/1009-complement-of-base-10-integer/) | Easy |
 ## Database
 | Problem Name | Difficulty |
@@ -27,6 +28,7 @@ I use this repo to practice DSA, SQL, and improve my problem-solving skills for 
 | ------- | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
+| [0268-missing-number](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0268-missing-number/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -36,6 +38,7 @@ I use this repo to practice DSA, SQL, and improve my problem-solving skills for 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0242-valid-anagram](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0242-valid-anagram/) | Easy |
+| [0268-missing-number](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0268-missing-number/) | Easy |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -45,9 +48,18 @@ I use this repo to practice DSA, SQL, and improve my problem-solving skills for 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0242-valid-anagram](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0242-valid-anagram/) | Easy |
+| [0268-missing-number](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0268-missing-number/) | Easy |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0268-missing-number](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0268-missing-number/) | Easy |
+## Binary Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0268-missing-number](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0268-missing-number/) | Easy |
 <!---LeetCode Topics End-->
