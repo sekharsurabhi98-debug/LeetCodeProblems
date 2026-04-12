@@ -18,7 +18,8 @@ class Solution {
             return false;
         }
         return true; */
-
+        
+        if(s.length() != t.length()) return false;
 
         int[] freq = new int[26];
 
