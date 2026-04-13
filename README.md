@@ -29,6 +29,7 @@ I use this repo to practice DSA, SQL, and improve my problem-solving skills for 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0075-sort-colors](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0075-sort-colors/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
+| [0200-number-of-islands](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0200-number-of-islands/) | Medium |
 | [0268-missing-number](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0268-missing-number/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
@@ -65,4 +66,20 @@ I use this repo to practice DSA, SQL, and improve my problem-solving skills for 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0268-missing-number](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0268-missing-number/) | Easy |
+## Depth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0200-number-of-islands](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0200-number-of-islands/) | Medium |
+## Breadth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0200-number-of-islands](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0200-number-of-islands/) | Medium |
+## Union-Find
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0200-number-of-islands](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0200-number-of-islands/) | Medium |
+## Matrix
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0200-number-of-islands](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0200-number-of-islands/) | Medium |
 <!---LeetCode Topics End-->
