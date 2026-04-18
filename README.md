@@ -67,6 +67,7 @@ I use this repo to practice DSA, SQL, and improve my problem-solving skills for 
 | [0013-roman-to-integer](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0013-roman-to-integer/) | Easy |
 | [0048-rotate-image](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0048-rotate-image/) | Medium |
 | [0268-missing-number](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0268-missing-number/) | Easy |
+| [3783-mirror-distance-of-an-integer](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/3783-mirror-distance-of-an-integer/) | Easy |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
