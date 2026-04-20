@@ -32,6 +32,7 @@ I use this repo to practice DSA, SQL, and improve my problem-solving skills for 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0200-number-of-islands](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0200-number-of-islands/) | Medium |
 | [0268-missing-number](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0268-missing-number/) | Easy |
+| [2078-two-furthest-houses-with-different-colors](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -89,4 +90,8 @@ I use this repo to practice DSA, SQL, and improve my problem-solving skills for 
 | ------- | ------- |
 | [0048-rotate-image](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0048-rotate-image/) | Medium |
 | [0200-number-of-islands](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0200-number-of-islands/) | Medium |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2078-two-furthest-houses-with-different-colors](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
 <!---LeetCode Topics End-->
