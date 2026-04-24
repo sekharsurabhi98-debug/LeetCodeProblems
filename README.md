@@ -50,6 +50,7 @@ I use this repo to practice DSA, SQL, and improve my problem-solving skills for 
 | [0005-longest-palindromic-substring](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0013-roman-to-integer](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0013-roman-to-integer/) | Easy |
 | [0242-valid-anagram](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0242-valid-anagram/) | Easy |
+| [2833-furthest-point-from-origin](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/2833-furthest-point-from-origin/) | Easy |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -94,4 +95,8 @@ I use this repo to practice DSA, SQL, and improve my problem-solving skills for 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
+## Counting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2833-furthest-point-from-origin](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/2833-furthest-point-from-origin/) | Easy |
 <!---LeetCode Topics End-->
