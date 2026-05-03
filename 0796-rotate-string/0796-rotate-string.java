@@ -1,7 +1,7 @@
 class Solution {
     public boolean rotateString(String s, String goal) {
         
-        if(s.length() < goal.length()) return false;
+        if(s.length() != goal.length()) return false;
         // StringBuilder sb = new StringBuilder();
         // sb.append(s);
         // int count = 0;
@@ -20,7 +20,7 @@ class Solution {
 
         String doubleString = s + s;
 
-        return doubleString.contains(goal);
+        return doubleString.contains(goal); 
         
     }
 }
