@@ -52,6 +52,7 @@ I use this repo to practice DSA, SQL, and improve my problem-solving skills for 
 | [0242-valid-anagram](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0242-valid-anagram/) | Easy |
 | [0796-rotate-string](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0796-rotate-string/) | Easy |
 | [2833-furthest-point-from-origin](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/2833-furthest-point-from-origin/) | Easy |
+| [3498-reverse-degree-of-a-string](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/3498-reverse-degree-of-a-string/) | Easy |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -104,4 +105,8 @@ I use this repo to practice DSA, SQL, and improve my problem-solving skills for 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0796-rotate-string](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/0796-rotate-string/) | Easy |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3498-reverse-degree-of-a-string](https://github.com/sekharsurabhi98-debug/LeetCodeProblems/tree/main/3498-reverse-degree-of-a-string/) | Easy |
 <!---LeetCode Topics End-->
